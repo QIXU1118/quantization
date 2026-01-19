@@ -73,8 +73,9 @@ python chatbot_stu.py
 文件体积对比： 记录导出模型和量化后的具体文件大小，并计算压缩比（例如：1750MB / 6800MB ≈ 25%）。
 效果观察：
 1. 量化后的模型在 CPU 上生成文字的速度如何？（主观感受即可，如：每秒大概几个字？）
-
+about30
 2. 量化后的模型是否依然能生成通顺的中文？请在报告中附上 2-3 轮对话的截图。
+<img width="739" height="135" alt="image" src="https://github.com/user-attachments/assets/8d874b1f-89ea-49e0-b1ca-655a56ecffe6" />
 
 ## 思考题：
 在任务三中，目前的推理逻辑每生成一个字都要重新计算整个序列。如果想要加速，应该引入什么机制？（提示：KV Cache）
